@@ -18,7 +18,7 @@ public class Timer : MonoBehaviour
     }
     private void Update()
     {
-        TimeUI.text = timer.ToString("F1");
+        TimeUI.text = timer.ToString("F0");
         timer -= Time.deltaTime;
 
     }
