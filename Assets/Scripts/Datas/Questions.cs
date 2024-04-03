@@ -6,5 +6,10 @@ using UnityEngine;
 public class Questions : ScriptableObject
 {
     [Header("Config")]
-    [SerializeField] float QuestionNumber;
+    [Header("Questions")]
+    private string[][] questions;
+
+  
+
+
 }
