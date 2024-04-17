@@ -12,3 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 22ead9c9902e0924d97681a3479f51f9, type: 3}
   m_Name: PlayerDatas
   m_EditorClassIdentifier: 
+  TrueNumber: 1
+  FalseNumber: 2
+  PlayerName: 2
+  Kado: "Benim Ad\u0131m kadriye "
