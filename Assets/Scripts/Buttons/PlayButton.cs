@@ -12,6 +12,6 @@ public class PlayButton : MonoBehaviour
         playerDatas.Kado = "Benim Adým kadriye ";   }
     public void Open_Categories()
     {
-        SceneManager.LoadScene("Categories"-); 
+        SceneManager.LoadScene("Categories"); 
     }
 }
