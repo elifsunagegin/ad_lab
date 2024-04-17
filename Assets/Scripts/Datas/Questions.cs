@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UIElements;
 
 [CreateAssetMenu(fileName ="Questions",menuName ="Questions")]
 public class Questions : ScriptableObject
@@ -14,7 +15,7 @@ public class Questions : ScriptableObject
     [SerializeField] private string[] OP4;
     [SerializeField] private bool[] TrueOnes;
     [SerializeField] private bool[] SelectedOnes;
-
+    [SerializeField] private Image[] Images;
    
      
   
