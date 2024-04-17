@@ -8,6 +8,6 @@ public class PlayButton : MonoBehaviour
     [SerializeField] PlayerDatas playerDatas;
     public void Open_Categories()
     {
-        SceneManager.LoadScene("Categories"-); 
+        SceneManager.LoadScene("Categories"); 
     }
 }
