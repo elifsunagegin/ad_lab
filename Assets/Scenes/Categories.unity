@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 90414189}
   - component: {fileID: 90414188}
   - component: {fileID: 90414187}
-  - component: {fileID: 90414186}
+  - component: {fileID: 90414190}
   m_Layer: 5
   m_Name: Categories2
   m_TagString: Untagged
@@ -162,18 +162,6 @@ RectTransform:
   m_AnchoredPosition: {x: -176.05, y: -97.874}
   m_SizeDelta: {x: 352.1025, y: 352.1}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &90414186
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 90414184}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b166bec67d0848c40b939225b164123e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &90414187
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -218,9 +206,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 90414186}
-        m_TargetAssemblyTypeName: QuestionScreen, Assembly-CSharp
-        m_MethodName: Open_Questions
+      - m_Target: {fileID: 90414190}
+        m_TargetAssemblyTypeName: CategoriesButtons, Assembly-CSharp
+        m_MethodName: Categorie3
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -268,6 +256,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 90414184}
   m_CullTransparentMesh: 1
+--- !u!114 &90414190
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 90414184}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 950253a33b540e248a184b5f4696223a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  questions: {fileID: 11400000, guid: bb15b5163fed7b74e88500be51571691, type: 2}
 --- !u!1 &258596047
 GameObject:
   m_ObjectHideFlags: 0
@@ -280,7 +281,7 @@ GameObject:
   - component: {fileID: 258596052}
   - component: {fileID: 258596051}
   - component: {fileID: 258596050}
-  - component: {fileID: 258596049}
+  - component: {fileID: 258596053}
   m_Layer: 5
   m_Name: Categories3
   m_TagString: Untagged
@@ -307,18 +308,6 @@ RectTransform:
   m_AnchoredPosition: {x: -138, y: 303}
   m_SizeDelta: {x: 444.79, y: 281.18}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &258596049
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 258596047}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b166bec67d0848c40b939225b164123e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &258596050
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -363,9 +352,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 258596049}
-        m_TargetAssemblyTypeName: QuestionScreen, Assembly-CSharp
-        m_MethodName: Open_Questions
+      - m_Target: {fileID: 258596053}
+        m_TargetAssemblyTypeName: CategoriesButtons, Assembly-CSharp
+        m_MethodName: Categorie1
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -413,6 +402,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 258596047}
   m_CullTransparentMesh: 1
+--- !u!114 &258596053
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 258596047}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 950253a33b540e248a184b5f4696223a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  questions: {fileID: 11400000, guid: bb15b5163fed7b74e88500be51571691, type: 2}
 --- !u!1 &435474781
 GameObject:
   m_ObjectHideFlags: 0
@@ -425,7 +427,7 @@ GameObject:
   - component: {fileID: 435474786}
   - component: {fileID: 435474785}
   - component: {fileID: 435474784}
-  - component: {fileID: 435474783}
+  - component: {fileID: 435474787}
   m_Layer: 5
   m_Name: Categories1
   m_TagString: Untagged
@@ -452,18 +454,6 @@ RectTransform:
   m_AnchoredPosition: {x: 158, y: 175}
   m_SizeDelta: {x: 415.1227, y: 193.6482}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &435474783
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 435474781}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b166bec67d0848c40b939225b164123e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &435474784
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -508,9 +498,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 435474783}
-        m_TargetAssemblyTypeName: QuestionScreen, Assembly-CSharp
-        m_MethodName: Open_Questions
+      - m_Target: {fileID: 435474787}
+        m_TargetAssemblyTypeName: CategoriesButtons, Assembly-CSharp
+        m_MethodName: Categorie2
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -558,6 +548,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 435474781}
   m_CullTransparentMesh: 1
+--- !u!114 &435474787
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 435474781}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 950253a33b540e248a184b5f4696223a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  questions: {fileID: 11400000, guid: bb15b5163fed7b74e88500be51571691, type: 2}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -864,7 +867,7 @@ GameObject:
   - component: {fileID: 1311838394}
   - component: {fileID: 1311838393}
   - component: {fileID: 1311838392}
-  - component: {fileID: 1311838391}
+  - component: {fileID: 1311838395}
   m_Layer: 5
   m_Name: Categories4
   m_TagString: Untagged
@@ -891,18 +894,6 @@ RectTransform:
   m_AnchoredPosition: {x: 195, y: -122}
   m_SizeDelta: {x: 352.2867, y: 352.2867}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1311838391
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1311838389}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b166bec67d0848c40b939225b164123e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1311838392
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -947,9 +938,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1311838391}
-        m_TargetAssemblyTypeName: QuestionScreen, Assembly-CSharp
-        m_MethodName: Open_Questions
+      - m_Target: {fileID: 1311838395}
+        m_TargetAssemblyTypeName: CategoriesButtons, Assembly-CSharp
+        m_MethodName: Categorie4
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -997,6 +988,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1311838389}
   m_CullTransparentMesh: 1
+--- !u!114 &1311838395
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1311838389}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 950253a33b540e248a184b5f4696223a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  questions: {fileID: 11400000, guid: bb15b5163fed7b74e88500be51571691, type: 2}
 --- !u!1 &1313376539
 GameObject:
   m_ObjectHideFlags: 0
