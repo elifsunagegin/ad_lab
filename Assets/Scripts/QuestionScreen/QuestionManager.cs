@@ -12,22 +12,23 @@ public class QuestionManager : MonoBehaviour
     {
         CategoryRage();
         SelectQuestion();
+        questions.SelectedQuestion = SelectQuestion(); 
     }
 
-    public void SelectQuestion()
+    public int SelectQuestion()
     {
         Selected = GetRandomInt();
         if (questions.TrueOnes[Selected]== false && questions.SelectedOnes[Selected]== false)
         {
-            questions.SelectedQuestion = Selected;
+            return Selected;
         }
         {
-            SelectQuestion();
+           return SelectQuestion();
         }
     }
     private int GetRandomInt()
     {
-        random = Random.Range(Min, Max+1);
+        random = Random.Range(Min,Max);
         Debug.Log(random);
         return random;
     }
@@ -37,21 +38,21 @@ public class QuestionManager : MonoBehaviour
         if (questions.SelectedCategorie == 1)
         {
             Min =1; 
-            Max =10;
+            Max =11;
         }else if (questions.SelectedCategorie == 2)
         {
             Min = 11;
-            Max = 20;
+            Max = 21;
         }
         else if (questions.SelectedCategorie == 3)
         {
             Min = 21;
-            Max = 30;
+            Max = 31;
         }
         else
         {
             Min = 31;
-            Max = 40;
+            Max = 41;
         }
     }
 
