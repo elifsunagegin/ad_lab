@@ -4,15 +4,13 @@ using UnityEngine;
 
 public class Avchiments_Button1 : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    [SerializeField] private GameObject panel;
+   public void OpenSettings()
     {
-        
+        panel.SetActive(true);
     }
-
-    // Update is called once per frame
-    void Update()
+    public void CloseSettings()
     {
-        
+        panel?.SetActive(false);
     }
 }

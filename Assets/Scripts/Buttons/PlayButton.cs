@@ -6,10 +6,6 @@ using UnityEngine.SceneManagement;
 public class PlayButton : MonoBehaviour
 {
     [SerializeField] PlayerDatas playerDatas;
-
-    public void Kadoyudusur()
-    {
-        playerDatas.Kado = "Benim Adým kadriye ";   }
     public void Open_Categories()
     {
         SceneManager.LoadScene("Categories"); 
