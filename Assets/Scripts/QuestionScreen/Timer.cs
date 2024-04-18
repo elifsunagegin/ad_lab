@@ -18,8 +18,14 @@ public class Timer : MonoBehaviour
     }
     private void Update()
     {
+
+        Timer();
+    }
+
+    private void Timer()
+    {
+        if(timer<=0) return;
         TimeUI.text = timer.ToString("F0");
         timer -= Time.deltaTime;
-
-    }
+    } 
 }
