@@ -1,24 +1,26 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 
 [CreateAssetMenu(fileName ="Questions",menuName ="Questions")]
 public class Questions : ScriptableObject
 {
     [Header("Config")]
     [Header("Questions")]
-    public int SelectedCategorie;
-    [SerializeField] public string[] questions;
-    [SerializeField] public string[] OP1;
-    [SerializeField] public string[] OP2;
-    [SerializeField] public string[] OP3;
-    [SerializeField] public string[] OP4;
-    [SerializeField] public Image[] Images;
-    [SerializeField] public bool[] TrueOnes;
-    [SerializeField] public bool[] SelectedOnes;
+<<<<<<< Updated upstream
+    [SerializeField] private string[] questions;
+    [SerializeField] private string[] OP1;
+    [SerializeField] private string[] OP2;
+    [SerializeField] private string[] OP3;
+    [SerializeField] private string[] OP4;
+    [SerializeField] private bool[] TrueOnes;
+    [SerializeField] private bool[] SelectedOnes;
+=======
+    public string[] questions;
+    
 
-    [SerializeField] public int SelectedQuestion;
+>>>>>>> Stashed changes
+
    
      
   
