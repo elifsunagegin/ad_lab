@@ -8,7 +8,7 @@ public class Timer : MonoBehaviour
     [Header("Config")]
     [SerializeField] private float clock;
     [SerializeField] private float MaxTime;
-
+    [SerializeField] private GameObject resultpanel;
     [SerializeField]private TextMeshProUGUI TimeUI;
 
     private void Awake()
@@ -24,7 +24,13 @@ public class Timer : MonoBehaviour
     private void Clock()
     {
         if(clock<=0) return;
+        if(clock<0.1f) OpenResultPanel();
         TimeUI.text = clock.ToString("F0");
         clock -= Time.deltaTime;
     } 
+    private void OpenResultPanel()
+    {
+        resultpanel.SetActive(true);
+    }
+
 }
