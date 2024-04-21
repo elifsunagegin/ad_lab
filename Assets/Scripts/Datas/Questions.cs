@@ -8,6 +8,7 @@ public class Questions : ScriptableObject
 {
     [Header("Config")]
     [Header("Questions")]
+
     [SerializeField] private string[] questions;
     [SerializeField] private string[] OP1;
     [SerializeField] private string[] OP2;
@@ -16,9 +17,6 @@ public class Questions : ScriptableObject
     [SerializeField] private bool[] TrueOnes;
     [SerializeField] private bool[] SelectedOnes;
     [SerializeField] private Image[] Images;
-   
-     
-  
 
 
 }

@@ -9,4 +9,6 @@ public class PlayerDatas :  ScriptableObject
     [SerializeField] float TrueNumber;
     [SerializeField] float FalseNumber;
     [SerializeField] string PlayerName;
+
+    public float PlayTime;
 }

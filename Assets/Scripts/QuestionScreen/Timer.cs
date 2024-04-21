@@ -6,7 +6,7 @@ using UnityEngine;
 public class Timer : MonoBehaviour
 {
     [Header("Config")]
-    [SerializeField] private float timer;
+    [SerializeField] private float clock;
     [SerializeField] private float MaxTime;
 
     [SerializeField]private TextMeshProUGUI TimeUI;
@@ -14,12 +14,17 @@ public class Timer : MonoBehaviour
     private void Awake()
     {
         TimeUI = GetComponent<TextMeshProUGUI>();
-        timer = MaxTime;
+        clock = MaxTime;
     }
     private void Update()
     {
-        TimeUI.text = timer.ToString("F0");
-        timer -= Time.deltaTime;
-
+        Clock();
     }
+
+    private void Clock()
+    {
+        if(clock<=0) return;
+        TimeUI.text = clock.ToString("F0");
+        clock -= Time.deltaTime;
+    } 
 }
