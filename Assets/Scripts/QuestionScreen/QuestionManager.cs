@@ -11,20 +11,21 @@ public class QuestionManager : MonoBehaviour
     private void Awake()
     {
         CategoryRage();
-        SelectQuestion();
         questions.SelectedQuestion = SelectQuestion(); 
     }
 
+    private bool isValidQuestion(int selected)
+    {
+        return questions.TrueOnes[Selected] == false && questions.SelectedOnes[Selected] == false;
+    }
     public int SelectQuestion()
     {
-        Selected = GetRandomInt();
-        if (questions.TrueOnes[Selected]== false && questions.SelectedOnes[Selected]== false)
+        do
         {
-            return Selected;
-        }
-        {
-           return SelectQuestion();
-        }
+            Selected = GetRandomInt();
+        } while (!isValidQuestion(Selected));
+
+        return Selected;        
     }
     private int GetRandomInt()
     {

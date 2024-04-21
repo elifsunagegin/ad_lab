@@ -9,14 +9,20 @@ public class Questions : ScriptableObject
     [Header("Config")]
     [Header("Questions")]
 
-    [SerializeField] private string[] questions;
-    [SerializeField] private string[] OP1;
-    [SerializeField] private string[] OP2;
-    [SerializeField] private string[] OP3;
-    [SerializeField] private string[] OP4;
-    [SerializeField] private bool[] TrueOnes;
-    [SerializeField] private bool[] SelectedOnes;
-    [SerializeField] private Image[] Images;
+    [SerializeField] public int SelectedCategorie;
+    [SerializeField] public int SelectedQuestion;
+    [SerializeField] public string[] questions;
+    [SerializeField] public string[] OP1;
+    [SerializeField] public string[] OP2;
+    [SerializeField] public string[] OP3;
+    [SerializeField] public string[] OP4;
+    [SerializeField] public Image[] Images;
+    [SerializeField] public bool[] TrueOnes;
+    [SerializeField] public bool[] SelectedOnes;
+    [SerializeField] public int SelectedQuestion;
+   
+     
 
+  
 
 }
