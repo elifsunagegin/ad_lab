@@ -15,6 +15,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Categories.unity
     guid: 3276aa1abbf87b7448f338e630e869fd
   - enabled: 1
+    path: Assets/Scenes/FunFacts.unity
+    guid: 3da277bbcfaeff540bf626daa55e62ba
+  - enabled: 1
     path: Assets/Scenes/Achievements.unity
     guid: 6fe79e1df3b8a84469f6612150a7e48a
   m_configObjects: {}
