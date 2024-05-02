@@ -55,22 +55,22 @@ public class QuestionManager : MonoBehaviour
     {
         if (questions.SelectedCategorie == 1)
         {
-            Min =0; 
-            Max =10;
+            Min =questions.Categoriy1First; 
+            Max =questions.Categoriy1Last;
         }else if (questions.SelectedCategorie == 2)
         {
-            Min = 10;
-            Max = 20;
+            Min = questions.Categoriy2First;
+            Max = questions.Categoriy2Last;
         }
         else if (questions.SelectedCategorie == 3)
         {
-            Min = 20;
-            Max = 30;
+            Min = questions.Categoriy3First;
+            Max = questions.Categoriy3Last;
         }
         else
         {
-            Min = 30;
-            Max = 40;
+            Min = questions.Categoriy4First;
+            Max = questions.Categoriy4Last;
         }
     }
 

@@ -19,10 +19,11 @@ public class Questions : ScriptableObject
     [SerializeField] public Sprite[] Sprites;
     [SerializeField] public bool[] TrueOnes;
     [SerializeField] public bool[] SelectedOnes;
-    
-   
-     
+    [SerializeField] public int Categoriy1First, Categoriy1Last, Categoriy2First, Categoriy2Last, Categoriy3First, Categoriy3Last, Categoriy4First, Categoriy4Last;
 
-  
+
+
+
+
 
 }
