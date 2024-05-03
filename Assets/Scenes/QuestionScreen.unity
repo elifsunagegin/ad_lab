@@ -272,6 +272,7 @@ MonoBehaviour:
   questions: {fileID: 11400000, guid: bb15b5163fed7b74e88500be51571691, type: 2}
   timer: {fileID: 1426328810}
   questionManager: {fileID: 1824515107}
+  OPText: {fileID: 371319318}
 --- !u!1 &371319316
 GameObject:
   m_ObjectHideFlags: 0
@@ -555,6 +556,7 @@ MonoBehaviour:
   questions: {fileID: 11400000, guid: bb15b5163fed7b74e88500be51571691, type: 2}
   timer: {fileID: 1426328810}
   questionManager: {fileID: 1824515107}
+  OPText: {fileID: 1608005942}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -1296,6 +1298,7 @@ MonoBehaviour:
   questions: {fileID: 11400000, guid: bb15b5163fed7b74e88500be51571691, type: 2}
   timer: {fileID: 1426328810}
   questionManager: {fileID: 1824515107}
+  OPText: {fileID: 1864517946}
 --- !u!1 &1372896179
 GameObject:
   m_ObjectHideFlags: 0
@@ -1491,14 +1494,14 @@ MonoBehaviour:
       m_Calls: []
   m_text: 60
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: f9462edde43e03d4cb3b1693678a4ba9, type: 2}
+  m_sharedMaterial: {fileID: 7308936975066975654, guid: f9462edde43e03d4cb3b1693678a4ba9, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
+    rgba: 4279267600
   m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -2098,6 +2101,7 @@ MonoBehaviour:
   questions: {fileID: 11400000, guid: bb15b5163fed7b74e88500be51571691, type: 2}
   timer: {fileID: 1426328810}
   questionManager: {fileID: 1824515107}
+  OPText: {fileID: 1372896181}
 --- !u!1 &1824515106
 GameObject:
   m_ObjectHideFlags: 0
