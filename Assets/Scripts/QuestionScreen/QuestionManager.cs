@@ -1,3 +1,4 @@
+
 using System.Collections;
 using System.Collections.Generic;
 using System.Xml.Serialization;
@@ -15,6 +16,8 @@ public class QuestionManager : MonoBehaviour
     [SerializeField] Questions questions;
     private int Max, Min, Selected,random;
 
+    private bool[] bools = { false, false, false, false };
+    private bool[] Selecteds = { false, false, false, false };
     private void Awake()
     {
         CategoryRage();
@@ -22,6 +25,11 @@ public class QuestionManager : MonoBehaviour
         FillQuestions();
     }
 
+    public void ReFillQuestions()
+    {
+        questions.SelectedQuestion = SelectQuestion();
+        FillQuestions();
+    }
     private bool isValidQuestion(int selected)
     {
         return questions.TrueOnes[Selected] == false && questions.SelectedOnes[Selected] == false;
@@ -44,11 +52,17 @@ public class QuestionManager : MonoBehaviour
     }
     public void FillQuestions()
     {
+        for (int i = 0; i < bools.Length; i++)
+        {
+            Selecteds[i] = bools[i];
+        }
+
         image.sprite = questions.Sprites[Selected];
-        button1.text = questions.OP1[Selected];
-        button2.text = questions.OP2[Selected];
-        button3.text = questions.OP3[Selected];
-        button4.text = questions.OP4[Selected];
+        image.SetNativeSize();
+        button1.text = GetOp();
+        button2.text = GetOp();
+        button3.text = GetOp();  
+        button4.text = GetOp();
         question_text.text = questions.questions[Selected];
     }
     private void CategoryRage()
@@ -74,4 +88,17 @@ public class QuestionManager : MonoBehaviour
         }
     }
 
+    public string GetOp()
+    {
+        int i = Random.Range(0, 4);
+        while (Selecteds[i] == true)
+        {
+            i = Random.Range(0, 4);
+        }
+        Selecteds[i] = true;
+        if (i == 0) { return questions.OP1[Selected]; }
+        else if (i == 1) { return questions.OP2[Selected]; } 
+        else if (i == 2) { return questions.OP3[Selected]; }
+        else { return questions.OP4[Selected]; }
+    }
 }

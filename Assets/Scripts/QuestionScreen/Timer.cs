@@ -11,8 +11,10 @@ public class Timer : MonoBehaviour
     [SerializeField] private GameObject resultpanel;
     [SerializeField]private TextMeshProUGUI TimeUI;
 
+    Animator animator;
     private void Awake()
     {
+        animator = GetComponent<Animator>();    
         TimeUI = GetComponent<TextMeshProUGUI>();
         clock = MaxTime;
     }
@@ -33,4 +35,13 @@ public class Timer : MonoBehaviour
         resultpanel.SetActive(true);
     }
 
+    public void TrueOP()
+    {
+        animator.SetTrigger("True");
+    }
+    public void FalseOP()
+    {
+        animator.SetTrigger("False");
+        clock -= 10;
+    }
 }
