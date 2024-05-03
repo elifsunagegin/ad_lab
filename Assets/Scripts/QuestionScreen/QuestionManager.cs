@@ -45,6 +45,7 @@ public class QuestionManager : MonoBehaviour
     public void FillQuestions()
     {
         image.sprite = questions.Sprites[Selected];
+        image.SetNativeSize();
         button1.text = questions.OP1[Selected];
         button2.text = questions.OP2[Selected];
         button3.text = questions.OP3[Selected];
