@@ -9,6 +9,7 @@ public class CaregoryManager : MonoBehaviour
     [SerializeField] TextMeshProUGUI CatTrue1, CatAll1, CatTrue2, CatAll2, CatTrue3, CatAll3, CatTrue4, CatAll4;
     private void Start()
     {
+        SetAllFalse();
         SetAll();
         Settrues();
     }
@@ -38,7 +39,7 @@ public class CaregoryManager : MonoBehaviour
 
     private void SetAllFalse()
     {
-        for(int i = questions.Categoriy1First; i< questions.Categoriy1Last;i++) 
+        for(int i = questions.Categoriy1First; i< questions.Categoriy4Last;i++) 
         {
             questions.SelectedOnes[i] = false;
         }

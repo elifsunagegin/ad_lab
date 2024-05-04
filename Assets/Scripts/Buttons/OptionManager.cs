@@ -8,12 +8,7 @@ public class OptionManager : MonoBehaviour
     [SerializeField] private Questions questions;
     [SerializeField] private Timer timer;
     [SerializeField] private QuestionManager questionManager;   
-    private TextMeshProUGUI OPText;
-
-    private void Awake()
-    {
-        OPText = GetComponent<TextMeshProUGUI>();
-    }
+    [SerializeField] private TextMeshProUGUI OPText;
     public void Control()
     {
         if(OPText.text == questions.OP1[questions.SelectedQuestion]){ TrueOp(); }
