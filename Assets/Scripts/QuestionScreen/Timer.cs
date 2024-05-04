@@ -42,6 +42,6 @@ public class Timer : MonoBehaviour
     public void FalseOP()
     {
         animator.SetTrigger("False");
-        clock -= 10;
+         if(clock >=10) clock -= 10;
     }
 }
