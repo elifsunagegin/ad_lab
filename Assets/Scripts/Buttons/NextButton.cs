@@ -2,27 +2,44 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class NextButton : MonoBehaviour
 {
-    [SerializeField] TextMeshProUGUI number;
+    [SerializeField] private Image FunfactImage;    
+    [SerializeField] TextMeshProUGUI number,Funfactinfo;
+    [SerializeField] Questions questions;
 
-    private int num ;
+
     private void Start()
     {
-        num = 1;
-        number.text = num.ToString();
+        questions.FunFactindex = 1;
+        IndexText();
+        FillFunFact();
+    }
+    public void IndexText()
+    {
+        number.text = questions.FunFactindex.ToString();
+
     }
     public void Next()
     {
-        num++;
-        number.text = num.ToString();
+        questions.FunFactindex++;
+        IndexText();
+        FillFunFact();
+
 
     }
     public void Prev()
     {
-        num--;
-        number.text = num.ToString();
+        questions.FunFactindex--;
+        IndexText();
+        FillFunFact();
 
     }
-}
+    public void FillFunFact()
+    {
+        FunfactImage.sprite = questions.Sprites[questions.funfactstart+ questions.FunFactindex-1];
+        Funfactinfo.text = questions.FunFacts[questions.funfactstart + questions.FunFactindex-1];
+    }
+ }
