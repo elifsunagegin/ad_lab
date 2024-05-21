@@ -12,6 +12,50 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5befbedf549ebbb4285e0741d0c40bd7, type: 3}
   m_Name: Questions
   m_EditorClassIdentifier: 
+  FunFactindex: 2
+  funfactstart: 0
+  funfactfinal: 10
+  FunFacts:
+  - "Japonyada Bal\u0131k kafasi yendigini biliyor muydunuz "
+  - amerikada konserve et yendigini biliyor muydunuz
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 2
+  - 3
+  - 3
+  - 3
+  - 3
+  - 3
+  - 3
+  - 3
+  - 3
+  - 3
+  - 3
+  - 4
+  - 4
+  - 4
+  - 4
+  - 4
+  - 4
+  - 4
+  - 4
+  - 4
+  - 4
   SelectedCategorie: 1
   SelectedQuestion: 0
   questions:
