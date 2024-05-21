@@ -22,6 +22,7 @@ public class OptionManager : MonoBehaviour
     private void TrueOp()
     {
         questions.TrueOnes[questions.SelectedQuestion] = true;
+       if (questionManager.ControlQuestions()) timer.OpenResultPanel();
         timer.TrueOP();
         questionManager.ReFillQuestions();
     }

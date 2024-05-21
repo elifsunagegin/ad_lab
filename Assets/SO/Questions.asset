@@ -12,30 +12,76 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5befbedf549ebbb4285e0741d0c40bd7, type: 3}
   m_Name: Questions
   m_EditorClassIdentifier: 
-  FunFactindex: 2
+  FunFactindex: 1
   funfactstart: 0
   funfactfinal: 10
   FunFacts:
-  - "Japonyada Bal\u0131k kafasi yendigini biliyor muydunuz "
-  - amerikada konserve et yendigini biliyor muydunuz
-  - 1
-  - 1
-  - 1
-  - 1
-  - 1
-  - 1
-  - 1
-  - 1
-  - 2
-  - 2
-  - 2
-  - 2
-  - 2
-  - 2
-  - 2
-  - 2
-  - 2
-  - 2
+  - 'In Japan, eating fish heads is common due to the cultural value of minimizing
+    waste ("mottainai"), their rich flavor and nutrients, and traditional culinary
+    practices that make the most of every part of the fish. '
+  - Spam became popular in the USA due to its role in military rations during World
+    War II and its post-war affordability, convenience, and effective marketing.
+    Its integration into regional cuisines, like in Hawaii, and its nostalgic value
+    further cemented its popularity.
+  - 'Jing leed (fried insects) are popular in Thailand due to their cultural tradition,
+    rich nutritional value, and unique flavor and texture. Additionally, they are
+    an economical and environmentally sustainable food source, commonly enjoyed as
+    street food. '
+  - 'Wasp crackers, or "jibachi senbei," are traditionally enjoyed in Japan as a
+    unique regional specialty that reflects local culinary traditions and the historical
+    practice of utilizing available food sources. They are valued for their distinctive
+    taste and high protein content. '
+  - Fried spiders are a delicacy in Cambodia because of their unique taste and high
+    protein content. They also became popular during times of food scarcity, becoming
+    a traditional food.
+  - "Escargots \xE0 la Bourguignonne is a classic French dish because it features
+    traditional Burgundian flavors and techniques, elevating simple ingredients into
+    a gourmet delicacy. "
+  - The worm, typically found in bottles of mezcal rather than tequila, is believed
+    by some to enhance the drink's flavor and possess mystical qualities, symbolizing
+    fertility, bravery, and good fortune in Mexican culture.
+  - Pickled eggs are commonly eaten in the UK due to their convenience, long shelf
+    life, and versatility as a snack or accompaniment to pub food. Additionally,
+    they offer a unique tangy flavor and are often enjoyed as a traditional pub snack
+    alongside beer or as part of a ploughman's lunch.
+  - 'Steak tartare is popular in France for its rich flavor and luxurious texture,
+    showcasing the country''s culinary expertise and emphasis on high-quality ingredients. '
+  - Due to the region's long history of camel husbandry and the meat's unique flavo
+    (lean, tender, and slightly sweet) camel burgers have been a culinary specialty
+    in the middle east.
+  - Individual states or jurisdictions have their own rules and regulations regarding
+    bingo operations, including restrictions on the duration of play for various
+    reasons such as preventing excessive gambling or ensuring fair access to gaming
+    opportunities.
+  - Washing your car on Sundays is traditionally discouraged in Switzerland out of
+    respect for the day's significance as a day of rest and quietude. This cultural
+    practice aims to minimize noise and disturbance to neighbors and the community.
+    Additionally, it aligns with the country's values of consideration for others
+    and maintaining a peaceful environment on Sundays.
+  - If you are single in Denmark, it is customary for your friends and family to
+    throw you a birthday celebration by covering you in cinnamon when you reach 25.
+  - 'Relatives of both the bride and groom gather together at one place before the
+    wedding and break things such as vases and dining sets.  Once they are done,
+    the groom and bride have to clean up the mess. it is done to let the couple know
+    that their marriage can also become messy sometimes, but they always have to
+    pick up the broken pieces and clear the mess. '
+  - It is illegal in Singapore to chew gum and the problem with that is not how poeple
+    chew it but how they dispose it.
+  - The graveyards in Denmark are said to be the most popular tourist places. People
+    hang out by the cemetery and have their so-called fun here, and one of the strange
+    rituals around the world.
+  - It works just fine for the employees because you will have job security at least.
+    If a company wants to fire you, but it cannot fire you because if they do, it
+    has to give you a huge compensation package, so what they do is lock the employees
+    in a room and make them do awful tasks, which compels them to quit the job.
+  - "If you run out of gas and have to pull over\xFC you're breaking the law. In
+    germany it is illegal to stop unnecessarily on the Autobahn due to safety risks
+    and avoiding accidents. "
+  - In Japan, splashing pedestrians is fined as this courtesy is taken seriously,
+    influencing how people drive. It is forbidden due to safety, courtesy, and respect
+    for others.
+  - "It\u2019s because, in South Korea, red pen is used to write the name of the
+    dead people."
   - 3
   - 3
   - 3
@@ -57,7 +103,7 @@ MonoBehaviour:
   - 4
   - 4
   SelectedCategorie: 1
-  SelectedQuestion: 0
+  SelectedQuestion: 6
   questions:
   - In which region are tuna eyeballs commonly consumed ?
   - In which region is spam a popular food item?
@@ -69,6 +115,18 @@ MonoBehaviour:
   - In which region are pickled eggs commonly eaten?
   - In which region is steak tartare a popular dish?
   - In which region are camel burgers a culinary specialty?
+  - In which country it is forbidden to play bingo more than 5 hours?
+  - In which country it is forbidden to wash your car on Sunday?
+  - In which country it is a tradition to celebrate the 25th birthday by cinnamon
+    throwing on you?
+  - In which country it is a tradition to breaking porcelain for good luck on the
+    weddings?
+  - In which country it is forbidden to chew gum?
+  - In which country it is a tradition to hang out by the cemetery?
+  - In which country it is forbidden to fire employee?
+  - In which country it is forbidden to pull over due to running out of gas?
+  - In which country it is forbidden to splashing over the pedestrians?
+  - In which country it is forbidden to use red ink?
   - ad
   - ad
   - ad
@@ -79,26 +137,25 @@ MonoBehaviour:
   - ad
   - ad
   - ad
-  - ad
-  - ad
-  - ad
-  - ad
-  - ad
-  - ad
-  - ad
-  - ad
-  - ad
-  - ad
-  - ad
-  - ad
-  - ad
-  - ad
-  - ad
-  - ad
-  - ad
-  - ad
-  - ad
-  - ad
+  - In which language this word means "to sing made-up words or sounds when you don't
+    know the lyrics to a song" ?
+  - In which language this word means "someone who wants to be on camera all the
+    time" ?
+  - 'In which language this word means "the nice orange glow that comes from being
+    addicted to tanning salons" ? '
+  - ' In which language this word means "a sigh of relief at the end of a long day"
+    ?'
+  - In which language this word means "the feeling of joy or pleasure when one sees
+    another fail or suffer misfortune" ?
+  - 'In which language this word means "literally party pig; someone in whose honor
+    a party is thrown" ? '
+  - ' In which language this word means "feeling homesick for a place you have never
+    been to" ?'
+  - In which language this word means "a face badly in need of a fist" ?
+  - 'In which language this word means "a chronically unlucky person" ? '
+  - 'In which language this word means "to call a mobile phone only to have it ring
+    once so that the other person would call back allowing the caller not to spend
+    money on minutes" ? '
   OP1:
   - Japan
   - United States
@@ -110,6 +167,16 @@ MonoBehaviour:
   - United Kingdom
   - France
   - Middle East
+  - USA
+  - Switzerland
+  - Denmark
+  - Germany
+  - Singapore
+  - Denmark
+  - Japan
+  - Germany
+  - Japan
+  - South Korea
   - op
   - op
   - op
@@ -120,26 +187,16 @@ MonoBehaviour:
   - op
   - op
   - op
-  - op
-  - op
-  - op
-  - op
-  - op
-  - op
-  - op
-  - op
-  - op
-  - op
-  - op
-  - op
-  - op
-  - op
-  - op
-  - op
-  - op
-  - op
-  - op
-  - op
+  - French
+  - Swedish
+  - Italian
+  - Dutch
+  - German
+  - Dutch
+  - German
+  - German
+  - Yiddish
+  - Czech
   OP2:
   - Italy
   - Spain
@@ -304,8 +361,8 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 77d4558e5b9e1124dbce21d3a00ee886, type: 3}
   - {fileID: 21300000, guid: ca21eaf2fa9b29b4e83c0a64f3986085, type: 3}
   - {fileID: 21300000, guid: cfd28a5ddf775d142a0c37b95f1c7c94, type: 3}
-  TrueOnes: 00000000000000000100000000000000000000000000000000000000000000000000000000000000
-  SelectedOnes: 01000100010000010101010101010101010001000001010100000000000000010000000100010000
+  TrueOnes: 00000000000000000100000000000000000000000000000000000000000000000000000000000100
+  SelectedOnes: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
   Categoriy1First: 0
   Categoriy1Last: 10
   Categoriy2First: 10
