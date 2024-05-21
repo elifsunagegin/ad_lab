@@ -696,7 +696,7 @@ MonoBehaviour:
     course, you must answer the question correctly first)
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f9462edde43e03d4cb3b1693678a4ba9, type: 2}
-  m_sharedMaterial: {fileID: 4715312351088204743, guid: 03304a3d7c26e1944aef3e77b0397693, type: 2}
+  m_sharedMaterial: {fileID: 7308936975066975654, guid: f9462edde43e03d4cb3b1693678a4ba9, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2674,7 +2674,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 553.66}
+  m_AnchoredPosition: {x: 0.00012207031, y: 553.66}
   m_SizeDelta: {x: 690.7448, y: 172.6862}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1819887285
@@ -2791,7 +2791,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1870766526
 RectTransform:
   m_ObjectHideFlags: 0
