@@ -30,7 +30,7 @@ public class Timer : MonoBehaviour
         TimeUI.text = clock.ToString("F0");
         clock -= Time.deltaTime;
     } 
-    private void OpenResultPanel()
+    public void OpenResultPanel()
     {
         resultpanel.SetActive(true);
     }
