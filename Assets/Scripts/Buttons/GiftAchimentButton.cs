@@ -4,13 +4,20 @@ using UnityEngine;
 
 public class GiftAchimentButton : MonoBehaviour
 {
+
+    [SerializeField] private float Index = 3;
+    [SerializeField] private Questions questions;
+
     [SerializeField] private GameObject panel;
     public void OpenGift()
     {
+        questions.Achievements_Index = Index;
         panel.SetActive(true);
     }
     public void CloseGift()
     {
         panel?.SetActive(false);
     }
+
+    
 }

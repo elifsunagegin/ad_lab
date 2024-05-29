@@ -10,7 +10,7 @@ public class AchievementManager : MonoBehaviour
     [SerializeField] Image Lock;
 
 
-    private void Start()
+    public void Start()
     {
         if(PlayerDatas.PlayTime > 15)
         {
