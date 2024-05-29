@@ -5,7 +5,7 @@ using UnityEngine;
 public class GiftAchimentButton : MonoBehaviour
 {
 
-    [SerializeField] private float Index = 3;
+    [SerializeField] private int Index;
     [SerializeField] private Questions questions;
 
     [SerializeField] private GameObject panel;

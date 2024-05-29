@@ -9,7 +9,7 @@ public class Questions : ScriptableObject
     [Header("Config")]
     [Header("Questions")]
 
-    [SerializeField] public float Achievements_Index;
+    [SerializeField] public int Achievements_Index;
     [SerializeField] public string[] Achievements_String;
     [SerializeField] public int SelectedCategorie;
     [SerializeField] public int SelectedQuestion;
