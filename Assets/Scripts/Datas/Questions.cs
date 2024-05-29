@@ -6,9 +6,11 @@ using UnityEngine.UI;
 [CreateAssetMenu(fileName ="Questions",menuName ="Questions")]
 public class Questions : ScriptableObject
 {
+    [Header("Config")]
+    [Header("Questions")]
 
-    [SerializeField] public int FunFactindex,funfactstart,funfactfinal;
-    [SerializeField] public string[] FunFacts;
+    [SerializeField] public int Achievements_Index;
+    [SerializeField] public string[] Achievements_String;
     [SerializeField] public int SelectedCategorie;
     [SerializeField] public int SelectedQuestion;
     [SerializeField] public string[] questions;
