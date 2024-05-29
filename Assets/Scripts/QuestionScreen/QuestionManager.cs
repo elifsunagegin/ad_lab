@@ -5,6 +5,7 @@ using System.Xml.Serialization;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
+using static UnityEngine.ParticleSystem;
 
 public class QuestionManager : MonoBehaviour
 {
@@ -24,6 +25,17 @@ public class QuestionManager : MonoBehaviour
         questions.SelectedQuestion = SelectQuestion(); 
         FillQuestions();
     }
+    public bool ControlQuestions()
+    {
+        int trues = 0;
+        for (int i = Min; i < Max; i++)
+        {
+            if (questions.TrueOnes[i] == true) trues++;
+        }
+        if (trues >= Max - Min) return true;
+        else return false;
+    }
+   
 
     public void ReFillQuestions()
     {
@@ -87,7 +99,7 @@ public class QuestionManager : MonoBehaviour
             Max = questions.Categoriy4Last;
         }
     }
-
+    
     public string GetOp()
     {
         int i = Random.Range(0, 4);
